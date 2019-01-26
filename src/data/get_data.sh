@@ -3,6 +3,7 @@
 ## ----------------------------
 ## Get Training/Test Data
 
+## Run from the project's home directory.
 kaggle competitions download -c competitive-data-science-predict-future-sales
 
 mv *.csv.gz data/raw
